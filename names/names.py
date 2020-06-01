@@ -26,7 +26,8 @@ for name in names:
     else:
         # its a duplicate
         duplicates.append(name)
-        
+
+del(seen)        
 
 
 # for name_1 in names_1:
